@@ -1,11 +1,14 @@
 import React from "react";
 
-export const Person = ({ id, image, name, age }) => {
+export const Person = ({ image, name, age }) => {
   return (
-    <div key={id}>
-      <img src={image} className="img"></img>
+    <article className="person">
+      <img src={image}  alt = {name} className="img"></img>
+      <div>
       <h1>{name}</h1>
-      <h1>{age}</h1>
-    </div>
+      <p>{age} years</p>
+      </div>
+
+    </article>
   );
 };

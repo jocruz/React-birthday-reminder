@@ -7,14 +7,17 @@ const App = () => {
     setPeople([]);
   };
   return (
-    <div>
-      <h1>{people.length} Birthdays Today</h1>
+    <main>
+      <section className="container"> 
+      <h3>{people.length} Birthdays Today</h3>
       <List people={people} />
-      <button type="button" className="btn" onClick={clearList}>
+      <button type="button" className="btn btn-block" onClick={clearList}>
         {" "}
         Clear All{" "}
       </button>
-    </div>
+      </section>
+
+    </main>
   );
 };
 export default App;
