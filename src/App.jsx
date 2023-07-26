@@ -2,9 +2,9 @@ import data from "./data";
 import { useState } from "react";
 import { List } from "./List";
 const App = () => {
-  const [people, updatePeople] = useState(data);
+  const [people, setPeople] = useState(data);
   const clearList = () => {
-    updatePeople([]);
+    setPeople([]);
   };
   return (
     <div>
