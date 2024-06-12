@@ -75,6 +75,6 @@ export default App;
 ### Links
 
 - **GitHub Repository**: [Visit GitHub](https://github.com/jocruz/Birthday-Buddy)
-- **Live Demo**: [See it Live]([https://birthday-buddy-demo.netlify.app/](https://rad-gecko-e00942.netlify.app/))
+- **Live Demo**: [See it Live](https://rad-gecko-e00942.netlify.app/)
 
 ---
